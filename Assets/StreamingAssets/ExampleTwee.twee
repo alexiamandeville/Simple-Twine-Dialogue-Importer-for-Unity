@@ -1,0 +1,53 @@
+:: Start
+You find yourself in a cheerful forest clearing, illuminated by a cozy campfire. In front of you is a group of cultists, dressed in matching red robes that look more like cozy pajamas. One cultist waves excitedly and speaks in a surprisingly chipper voice, "Hello there! If you want to keep exploring our lovely forest, you'll need to solve a little riddle first. Just a bit of fun, really!"
+
+[[Image:cultists1.png]]
+[[Listen to the riddle.|Listen to Riddle]]
+[[Offer the cultist a bribe.|Bribe Cultist]]
+
+:: Listen to Riddle
+The cultist’s eyes twinkle with mischief as they begin to recite in a sing-song voice:
+"I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?"
+
+[[Image:cultists2.png]]
+[[Attempt to solve the riddle.|Solve Riddle]]
+[[Refuse to answer and walk away.|Walk Away]]
+
+:: Solve Riddle
+You ponder the riddle carefully, considering each word and its possible meanings. After a moment of contemplation, you smile and confidently give your answer.
+
+[[Image:cultists2.png]]
+[[Answer "An Echo"|Correct Answer]]
+[[Answer "A Shadow"|Incorrect Answer]]
+[[Answer "The Wind"|Incorrect Answer]]
+[[Answer "A Whisper"|Incorrect Answer]]
+
+:: Correct Answer
+The cultists cheer and clap their hands, their laughter bright and infectious. "Yay! You got it right!" the lead cultist exclaims with glee. "You must be really smart! You can go ahead now, but remember, there are more fun surprises waiting!"
+
+[[Image:cultists3.png]]
+[[Proceed Deeper|Proceed Deeper]]
+
+:: Incorrect Answer
+The cultists giggle softly, their laughter light and friendly. "Oops, that's not quite right," one cultist says kindly. "But don’t worry! You can always try again! We believe in you!"
+
+[[Image:cultists3.png]]
+[[Retry the riddle.|Listen to Riddle]]
+[[Try another approach.|Start]]
+
+:: Walk Away
+You decide not to play along with the cultists' game and turn to leave. But as you step away, you hear a gentle rustling, and suddenly, you find yourself right back where you started. "Oh, don’t be like that," a cultist teases, "We’re just having some fun! Give the riddle a try!"
+
+[[Image:cultists1.png]]
+[[Return to the cultists.|Listen to Riddle]]
+
+:: Bribe Cultist
+You offer the cultists a shiny gold coin, hoping it might sway them. The lead cultist looks at the coin and giggles. "Oh, how sweet! But we can’t take that. We just love riddles too much! Besides, we’re not in it for the money."
+
+[[Image:cultists3.png]]
+[[Listen to the riddle.|Listen to Riddle]]
+
+:: Proceed Deeper
+With a friendly wave, the cultists step aside, allowing you to continue down the path. As you walk, the forest around you seems to shimmer with excitement. Ahead, you see the path split into two—one side looks well-traveled, and the other seems a bit more mysterious and overgrown.
+
+[[Image:end.png]]
