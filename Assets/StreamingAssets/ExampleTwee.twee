@@ -1,5 +1,5 @@
 :: StoryTitle
-Cultist Riddle Adventure
+Journey with a Cultist
 
 
 :: StoryData
@@ -13,18 +13,18 @@ Cultist Riddle Adventure
 
 
 :: Start {"position":"400,100","size":"100,100"}
-You find yourself in a cheerful forest clearing, illuminated by a cozy campfire. In front of you is a group of cultists, dressed in matching red robes that look more like cozy pajamas. One cultist waves excitedly and speaks in a surprisingly chipper voice, "Hello there! If you want to keep exploring our lovely forest, you'll need to solve a little riddle first. Just a bit of fun, really!"
+As you travel along a winding forest path, you notice a solitary figure walking. The cultist looks up as you approach.
 
-[[Image:cultists1.png]]
+[[Image:image1.png]]
 [[Listen to the riddle.|Listen to Riddle]]
 [[Offer the cultist a bribe.|Bribe Cultist]]
 
 
 :: Listen to Riddle {"position":"400,250","size":"100,100"}
-The cultist's eyes twinkle with mischief as they begin to recite in a sing-song voice:
+The cultist's eye twinkles with mischief as they begin to recite in a sing-song voice:
 "I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?"
 
-[[Image:cultists2.png]]
+[[Image:image2.png]]
 [[Attempt to solve the riddle.|Solve Riddle]]
 [[Refuse to answer and walk away.|Walk Away]]
 
@@ -32,7 +32,7 @@ The cultist's eyes twinkle with mischief as they begin to recite in a sing-song 
 :: Solve Riddle {"position":"400,400","size":"100,100"}
 You ponder the riddle carefully, considering each word and its possible meanings. After a moment of contemplation, you smile and confidently give your answer.
 
-[[Image:cultists2.png]]
+[[Image:image2.png]]
 [[Answer "An Echo"|Correct Answer]]
 [[Answer "A Shadow"|Incorrect Answer]]
 [[Answer "The Wind"|Incorrect Answer]]
@@ -40,36 +40,36 @@ You ponder the riddle carefully, considering each word and its possible meanings
 
 
 :: Correct Answer {"position":"250,550","size":"100,100"}
-The cultists cheer and clap their hands, their laughter bright and infectious. "Yay! You got it right!" the lead cultist exclaims with glee. "You must be really smart! You can go ahead now, but remember, there are more fun surprises waiting!"
+The cultist claps their hands, their laughter bright. "You got it right."
 
-[[Image:cultists3.png]]
-[[Proceed Deeper|Proceed Deeper]]
+[[Image:image3.png]]
+[[Proceed|Proceed]]
 
 
 :: Incorrect Answer {"position":"550,550","size":"100,100"}
-The cultists giggle softly, their laughter light and friendly. "Oops, that's not quite right," one cultist says kindly. "But don't worry! You can always try again! We believe in you!"
+The cultist giggles softly. "That's not quite right."
 
-[[Image:cultists3.png]]
+[[Image:image3.png]]
 [[Retry the riddle.|Listen to Riddle]]
 [[Try another approach.|Start]]
 
 
 :: Walk Away {"position":"600,250","size":"100,100"}
-You decide not to play along with the cultists' game and turn to leave. But as you step away, you hear a gentle rustling, and suddenly, you find yourself right back where you started. "Oh, don't be like that," a cultist teases, "We're just having some fun! Give the riddle a try!"
+You decide not to play along with the cultists' game and turn to leave. But as you step away, you hear a gentle rustling, and suddenly, you find yourself right back where you started.
 
-[[Image:cultists1.png]]
-[[Return to the cultists.|Listen to Riddle]]
+[[Image:image1.png]]
+[[Return to the cultist.|Listen to Riddle]]
 
 
 :: Bribe Cultist {"position":"200,250","size":"100,100"}
-You offer the cultists a shiny gold coin, hoping it might sway them. The lead cultist looks at the coin and giggles. "Oh, how sweet! But we can't take that. We just love riddles too much! Besides, we're not in it for the money."
+You offer the cultist a shiny gold coin, hoping it might sway them. The cultist looks at the coin and giggles. "We can't take that.""
 
-[[Image:cultists3.png]]
+[[Image:image3.png]]
 [[Listen to the riddle.|Listen to Riddle]]
 
 
-:: Proceed Deeper {"position":"250,700","size":"100,100"}
-With a friendly wave, the cultists step aside, allowing you to continue down the path. As you walk, the forest around you seems to shimmer with excitement. Ahead, you see the path split into two—one side looks well-traveled, and the other seems a bit more mysterious and overgrown.
+:: Proceed {"position":"250,700","size":"100,100"}
+The cultist steps aside, allowing you to continue down the path. You leave them behind.
 
-[[Image:end.png]]
+[[Image:image4.png]]
 
